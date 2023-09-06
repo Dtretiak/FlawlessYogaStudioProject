@@ -1,0 +1,159 @@
+body {
+    background-color: #eeecef;
+    margin: 0;
+}
+
+.btn-back-container {
+    padding: 10px;
+}
+
+.style-btn {
+    border: none;
+    background-color: #eeecef;
+    margin-left: 10px;
+}
+
+.take-care-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+    margin-top: -80px;
+}
+
+.group-head-img  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-text {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0.01;
+    color: #204236;
+}
+
+.img-care {
+    width: 255px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35.5px;
+}
+
+.img-care-one {
+    background-image: url(close-up-laptop-keyboard-colorful-neon-illumination-backlit-keyboard.jpg);
+    background-position: bottom;
+    margin-left: 50px;
+}
+
+.img-care-two {
+    background-image: url(portrait-sportswoman-stretching-body-exercising-doing-fitness-leg-raise-smiling-running-standing-white-background.jpg);
+    background-position: center;
+    margin-right: 50px;
+}
+
+.who-suitable-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+}
+
+.head-text-min {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #204236;
+}
+
+.text-margin {
+    margin-left: 150px;
+}
+
+.img-suitable-container {
+    background-image: url(back-view-woman-practicing-yoga-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 430px;
+    height: 510px;
+}
+.texts {
+    width: 600px;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#myVideo {
+    margin-bottom: 70px;
+}
+
+@media all and (max-width: 800px) {
+    .take-care-container {
+        margin-left: 170px;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .img-care {
+        width: 135px;
+        height: 41px;
+    }
+    
+    .head-text {
+        font-size: 40px;
+    }
+
+    .text-margin {
+        margin-left: 70px;
+    }
+
+    .img-suitable-container {
+        width: 330px;
+    }
+    
+    .head-text-min  {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .img-care-one, .img-care-two {
+        display: none;
+    }
+
+    .who-suitable-container {
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
+    .texts {
+        width: 500px;
+        margin-left: -95px;
+    }
+
+    .video-container {
+        margin-left: 60px;
+        width: 500px;
+    }
+
+    #myVideo {
+        width: 500px;
+    }
+}

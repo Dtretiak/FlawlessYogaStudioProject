@@ -1,0 +1,1096 @@
+body {
+    background-color: #eeecef;
+    margin: 0;
+}
+
+.header-main-container {
+    width: 100%;
+    background-color: #eeecef;
+    color: #204236;
+    
+}
+
+.header__container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+.header__logo {
+    font-size: 30px;
+    z-index: 3;
+}
+
+.menu, .menu__icon, .heading-main-page, .img-text-container, .img-button-container, .question-containerOne, .question-containerTwo, .question-containerThree, .question-containerFour, .question-containerFive, .question-containerSix, .question-containerSeven, .question-containerEight, .showYourChoice {
+    opacity: 0;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+}
+
+.menu__list > li {
+    position: relative;
+    margin: 0px 0px 0px 25px;
+}
+
+.menu__link {
+    color: #204236;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.menu__link:hover {
+    color: #AA9F8D;
+    transition-duration: 0.3s;
+} 
+
+.navbar-brand {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #204236;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.text-min-navbar {
+    color: #204236;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+.main-head {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 108%;
+    text-align: right;
+    color: #204236;
+}
+
+.text-min {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 109.5%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.img-text-container {
+    width: 445px;
+}
+
+.img-back-container {
+    background-image: url(full-shot-happy-woman-indoors.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 539px;
+}
+
+.heading-main-page, .free-class-container, .have-questions-container, .main-container-classes, .description-text-help, .help-container  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.take-care-container, .choose-class, .contact-container, .text-align-container, .head-text-button, .head-form, .no-show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.about-us-container, .container-our-classes, #join-us-pricing, #instructors-section {
+    margin-top: 70px;
+}
+
+.group-head-img  {
+    display: flex;
+    justify-content: center;
+}
+
+.space-text-img, .img-description-learn-more-left, .instructors-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-button-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.img-back-container-two {
+    background-image: url(woman\ doing\ yoga.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 462px;
+    margin-top: -250px;
+}
+
+.btn-space {
+    padding: 70px;
+}
+
+.btn-style-circle {
+    width: 212px;
+    height: 212px;
+    background-color: #AA9F8D;
+    border-radius: 50%;
+    border: none;
+    align-self: center;
+}
+
+.btn-style-circle:hover {
+    background-color: #204236;
+    transition: all 1s ease-out;
+}
+
+.btn-link {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 108%;
+    color: #D6D1CA;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-link:hover {
+    color: #D6D1CA;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-text {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 108%;
+    text-align: center;
+    color: #204236;
+}
+
+.img-care {
+    width: 255px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35.5px;
+}
+
+.img-care-one {
+    background-image: url(close-up-beautiful-young-raised-woman-s-hand-with-white-manicure.jpg);
+    background-position: bottom;
+    margin-left: 50px;
+}
+
+.img-care-two {
+    background-image: url(woman-touch-her-body.jpg);
+    background-position: center;
+    margin-right: 50px;
+}
+
+.swiper {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 470px;
+    height: 630px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.box-img-bg-one {
+    background-image: url(1.jpg);
+}
+
+.box-img-bg-two {
+    background-image: url(2.jpg);
+}
+
+.box-img-bg-three {
+    background-image: url(3.jpg);
+}
+
+.box-img-bg-four {
+    background-image: url(4.jpg);
+}
+
+.box-img-bg-five {
+    background-image: url(5.jpg);
+}
+
+.box-img-bg-six {
+    background-image: url(6.jpg);
+}
+
+.box-img-bg-seven {
+    background-image: url(7.jpg);
+}
+
+.text-min-about {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 70px;
+}
+
+.container-text-img-about-us {
+    margin: 20px;
+    width: 500px;
+}
+
+.img-container-about {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 519px;
+    margin-top: 70px;
+}
+
+.img-container-about-one {
+    background-image: url(beautiful-elegant-girls-doing-yoga.jpg);
+    height: 500px;
+}
+
+.img-container-about-two {
+    background-image: url(full-shot-trainer-helping-woman.jpg);
+    height: 630px;
+}
+
+.sm-head {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108%;
+    text-align: left;
+    color: #204236;
+}
+
+.head-img-container {
+    display: flex;
+    margin: 20px;
+}
+
+.img-classes-box-one {
+    width: 430px;
+    height: 600px;
+}
+
+.img-classes-box-two {
+    width: 430px;
+    height: 360px;
+    margin-top: 30px;
+}
+
+.text-container-classes {
+    margin-left: 20px;
+    width: 370px;
+}
+
+.buttons-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-text {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 108%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.btn-numbers-container {
+    display: flex;
+    align-items: center;
+}
+
+.style-btn {
+    border: none;
+    background-color: #eeecef;
+}
+
+.text-min-classes {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.text-container-classes-two {
+    width: 370px;
+}
+
+.text-margin {
+    margin-left: 150px;
+}
+
+.text-min-about-margin {
+    margin-left: -150px;
+    text-align: left;
+}
+
+.img-button-choose, .hours-container {
+    display: flex;
+}
+
+.img-container-choose {
+    width: 300px;
+    height: 390px;
+    background-image: url(side-view-woman-doing-yoga-outdoors.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -290px;
+    
+}
+
+.btn-start {
+    align-self: flex-end;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 108%;
+    color: #D6D1CA;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.img-container-choose-two {
+    width: 309px;
+    height: 405px;
+    background-image: url(group-young-sporty-people-sitting-lotus-pose-closeup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 360px;
+    margin-top: -150px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.quiz-question {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 108%;
+    color: #204236;
+    text-align: center;
+}
+
+.answers-style {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+.showYourChoice-position {
+    text-align: center;
+    width: 800px;
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text-bold-style {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #204236;
+    font-size: 25px;
+}
+
+.style-choice {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #204236;
+    font-size: 35px;
+}
+
+.radio-style {
+    width: 18px;
+    height: 18px;
+}
+
+.question-containerOne, .question-containerTwo, .question-containerThree, .question-containerFour, .question-containerFive, .question-containerSix, .question-containerSeven, .question-containerEight {
+    display: none;
+} 
+
+.noDisplay {
+    background-color: #eeecef;
+    border: none;
+    display: none;
+    margin-top: -100px;
+}
+
+.img-container-instructors {
+    width: 600px;
+    height: 360px;
+    background-image: url(woman-with-yoga-mat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.empty-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.sm-head-instructors {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: left;
+    color: #204236;
+    margin-top: 20px;
+}
+
+.learn-more-link {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.card-margin-right {
+    margin-left: -15px;
+}
+
+.card-margin-left {
+    margin-left: 15px;
+}
+
+.card {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: 600px;
+    border: none;
+    background-color: #eeecef;
+}
+
+.img-container-instructors-two {
+    width: 600px;
+    height: 360px;
+    background-image: url(beautiful-girl-is-engaged-yoga-studio22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.left-margin {
+    margin-left: 30px;
+}
+
+.form-message {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-container-instructors-three {
+    width: 600px;
+    height: 360px;
+    background-image: url(young-woman-doing-half-lotus-toe-balance-exercise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.price-box {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #AA9F8D;
+}
+
+.sm-head-changed {
+    margin: 55px;
+}
+
+.changed-color {
+    background-color: #a09885;
+    color: #d6d1ca;
+}
+
+.price-description {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cost-per-month {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.img-container-help {
+    width: 350px;
+    height: 470px;
+    background-image: url(indoor-photo-young-blond-woman-doing-yoga-exercises-practicing-meditation-sitting-lotos-pose-yoga-class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help-sm-container {
+    width: 320px;
+    padding: 50px;
+}
+
+.sm-head-help {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #204236;
+}
+
+.img-container-free-class-one {
+    background-image: url(young-woman-natarajasana-pose-grey-studio-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 450px;
+}
+
+.img-container-free-class-two {
+    background-image: url(young-woman-garudasana-pose-grey-studio-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 365px;
+    height: 515px;
+    margin-top: 150px;
+}
+
+.btn-call-us {
+    align-self: flex-start;
+    margin-top: 70px;
+}
+
+.img-container-have-questions {
+    width: 560px;
+    height: 630px;
+    background-image: url(studio-shot-young-fit-women-doing-yoga-exercises.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-field {
+    font-family: 'Quicksand', sans-serif;
+    width: 320px;
+    height: 45px;
+    margin: 5px;
+    border: 1px solid #a09885;
+    color: #a09885;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.big {
+    height: 75px;
+}
+
+.btn-submit {
+    margin-left: 40px;
+}
+
+.text-contact {
+    margin: 40px;
+}
+
+.map-studio {
+    width: 90%;
+    margin-bottom: 50px;
+    filter: grayscale(90%);
+}
+
+.footer-line {
+    width: 90%;
+    background-color: #a09885;
+}
+
+.text-designed {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    color: #a09885;
+}
+
+
+@media all and (max-width: 800px) {
+    .container, .header__container {
+        max-width: 700px;
+    }
+
+    .header__container {
+        padding: 0 30px;
+    }
+
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        margin-top: -20px;
+    }
+
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #204236;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after {
+        content: "";
+    }
+
+    .menu__icon::before {
+        top: 0;
+    }
+
+    .menu__icon::after {
+        bottom: 0;
+    }
+
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .menu__icon._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+
+    .menu__icon._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+
+    .menu__icon._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+    .menu__body {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #eeecef;
+        padding: 150px 0px 30px 0px;
+        transition: left 0.5s ease 0s;
+        overflow: auto;
+        z-index: 2;
+    }
+
+    .menu__body._active {
+        left: 0;
+    }
+
+    .menu__body::before {
+        content: "";
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 70px;
+        z-index: 2;
+    }
+
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__list > li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .menu__list > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu__list > li > a, .sm-head {
+        font-size: 20px;
+    }
+
+    .menu__link {
+        font-size: 20px;
+        opacity: 0.9;
+    }
+
+    .menu__link:hover {
+        opacity: 0.7;
+    }
+
+    .main-head {
+        font-size: 50px;
+    }
+
+    .head-text {
+        font-size: 40px;
+    }
+
+    .img-back-container {
+        width: 355px;
+    }
+
+    /* .text-min-about {
+        font-size: 14px;
+        margin-left: 30px;
+    } */
+
+    .img-container-about {
+        width: 310px;
+    }
+
+    .container-text-img-about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper-slide {
+        width: 270px;
+        height: 430px;
+    }
+
+    .img-classes-box-one {
+        width: 230px;
+        height: 330px;
+    }
+    
+    .img-classes-box-two {
+        width: 230px;
+        height: 180px;
+    }
+
+    .text-container-classes {
+        /* margin-left: 20px; */
+        width: 200px;
+    }
+
+    .text-container-classes-two {
+        width: 240px;
+    }
+
+    .numbers-text, .changed-numbers {
+        font-size: 14px;
+        padding: 2px;
+    }
+
+    .btn-left img, .btn-right img {
+        width: 60px;
+    }
+
+    .img-container-choose-two, .img-container-free-class-two, .img-container-have-questions, .img-care-one, .img-care-two {
+        display: none;
+    }
+
+    .img-container-choose {
+        margin-top: 50px;
+    }
+
+    .answer-container {
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .instructors-container, .img-description-learn-more-left, .group-head-img, .description-text-help {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-margin {
+        margin-left: 0px;
+    }
+
+    .card-margin-left {
+        margin-left: -15px;
+    }
+
+    .empty-space .btn-style-circle {
+        margin: 20px;
+    }
+
+    .instructors-container-reverse {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .price-box .sm-head {
+        font-size: 35px;
+    }
+
+    .price-box {
+        margin: 0;
+    }
+
+    .help-sm-container {
+        padding: 5px;
+    }
+
+    .img-container-help {
+        margin-top: 100px;
+        margin-right: 40px;
+    }
+
+    .img-care {
+        width: 125px;
+        height: 41px;
+    }
+    
+} 
+
+@media all and (max-width: 500px) {
+    .container, .header__container {
+        max-width: 500px;
+    }
+
+    .main-head {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .head-text {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .img-back-container {
+        width: 260px;
+        height: 370px;
+    }
+
+    .img-text-container, .heading-main-page, .img-button-choose, .instructors-section, .description-text-help, .form-message, .hours-container {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .free-class-container, .have-questions-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .img-back-container-two, .img-container-about-one, .img-classes-box-one, .learn-more-link, .img-container-help {
+        display: none;
+    }
+
+    .text-min-about {
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .btn-space {
+        padding: 5px;
+    }
+
+    .btn-style-circle {
+        width: 122px;
+        height: 122px;
+    }
+
+    .btn-link, .text-container-classes .text-min-classes, .text-container-classes-two .text-min-classes {
+        font-size: 12px;
+    }
+
+    .quiz-question {
+        font-size: 17px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .swiper-slide, .img-container-about-two, .img-container-choose, .img-container-free-class-one {
+        width: 330px;
+        height: 460px;
+    }
+
+    .space-text-img, .btn-numbers-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .container-text-img-about-us, .answer-container {
+        width: 330px;
+    }
+
+    .container-text-img-about-us .text-min-about {
+        text-align: left;
+    }
+
+    .text-container-classes {
+        width: 200px;
+    }
+
+    .text-min-classes, .answers-style, .help-sm-container .text-min-classes, .text-bold-style, .showYourChoice {
+        font-size: 16px;
+    }
+
+    .img-classes-box-two, .text-container-classes-two {
+        width: 150px;
+        height: 120px;
+    }
+
+    .btn-left img, .btn-right img, .noDisplay img {
+        width: 50px;
+    }
+
+    .head-img-container {
+        display: flex;
+        margin: 2px;
+    }
+
+    .text-align-container, .img-button-choose {
+        align-self: center;
+    }
+
+    .btn-start {
+        margin-top: 10px;
+        margin-right: 60px;
+        font-size: 12px;
+    }
+
+    .block {
+        width: 350px;
+    }
+
+    .img-container-instructors, .img-container-instructors-two {
+        width: 360px;
+        margin: 5px;
+    }
+
+    .img-container-instructors-three {
+        width: 360px;
+        margin-top: -45px;
+    }
+
+    #join-us-pricing .head-text {
+        margin-bottom: 50px;
+    }
+
+    #instructors-section .head-text {
+        margin-top: -55px;
+        margin-bottom: 80px;
+    }
+
+    .sm-head-instructors, .answers-style {
+        font-size: 14px;
+    }
+
+    .sm-head-help {
+        font-size: 20px;
+    }
+
+    .help-sm-container {
+        width: 250px;
+        text-align: center;
+    }
+
+    .btn-call-us {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .input-field {
+        width: 300px;
+        height: 50px;
+    }
+
+    .label-btn {
+        align-self: center;
+        margin-left: -45px;
+        margin-top: 10px;
+    }
+
+    .text-designed {
+        font-size: 7px;
+        text-align: center;
+    }
+}

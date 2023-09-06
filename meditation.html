@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="meditation.css">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="playerOne" autoplay loop muted>
+        <source src="deepmedrelax.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerTwo" autoplay loop muted>
+        <source src="relaxmedtosoul.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerThree" autoplay loop muted>
+        <source src="focusmind.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerFour" autoplay loop muted>
+        <source src="sleepmind.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="btn-back-container">
+        <button class="btn-back style-btn"><a href="index.html"><img src="btn left.png" alt="Left" width="100px"></a></button>
+    </div>
+
+    <div class="head-container">
+        <div class="main-container">
+            <div class="firstContainer">
+                <div class="blocks-backgr">
+                    <div class="text-in-block">
+                        <p class="text">Deep Meditation to relax</p>
+                        <p class="text time">10:00 Min.</p>
+                        <div class="btn-container">
+                            <button class="btnOne btn-style">Play</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blocks-backgr">
+                    <div class="text-in-block">
+                        <p class="text">Relaxing meditation to soul</p>
+                        <p class="text time">10:00 Min.</p>
+                        <div class="btn-container">
+                            <button class="btnTwo btn-style">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondContainer">
+                <div class="block-down blocks-backgr">
+                    <div class="text-in-block">
+                        <p class="text">Complete focus of mind</p>
+                        <p class="text time">10:00 Min.</p>
+                        <div class="btn-container">
+                            <button class="btnThree btn-style">Play</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blocks-backgr">
+                    <div class="text-in-block">
+                        <p class="text">Deep sleep of mind</p>
+                        <p class="text time">10:00 Min.</p>
+                        <div class="btn-container">
+                            <button class="btnFour btn-style">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="containerOne container-backgr">
+            <p class="head-main-text">Deep Meditation to relax</p>
+            <p class="head-text">Start meditation of mind</p>
+            <p class="text-time timeOne">10:00</p>
+            <button class="block-resetOne btn-style">Reset</button>
+        </div>
+
+        <div class="containerTwo container-backgr">
+            <p class="head-main-text">Relaxing meditation to soul</p>
+            <p class="head-text">Start meditation of mind</p>
+            <p class="text-time timeTwo">10:00</p>
+            <button class="block-resetTwo btn-style">Reset</button>
+        </div>
+
+        <div class="containerThree container-backgr">
+            <p class="head-main-text">Complete focus of mind</p>
+            <p class="head-text">Start meditation of mind</p>
+            <p class="text-time timeThree">10:00</p>
+            <button class="block-resetThree btn-style">Reset</button>
+        </div>
+
+        <div class="containerFour container-backgr">
+            <p class="head-main-text">Deep sleep of mind</p>
+            <p class="head-text">Start meditation of mind</p>
+            <p class="text-time timeFour">10:00</p>
+            <button class="block-resetFour btn-style">Reset</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="meditation.js"></script>
+</body>
+</html>

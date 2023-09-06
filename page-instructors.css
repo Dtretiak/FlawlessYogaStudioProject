@@ -1,0 +1,305 @@
+body {
+    background-color: #eeecef;
+    margin: 0;
+}
+
+.btn-back-container {
+    padding: 10px;
+}
+
+.style-btn {
+    border: none;
+    background-color: #eeecef;
+    margin-left: 10px;
+}
+
+.take-care-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+    margin-top: -80px;
+}
+
+.group-head-img  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-text {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0.01;
+    color: #204236;
+}
+
+.img-care {
+    width: 255px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35.5px;
+}
+
+.img-care-one {
+    background-image: url(young-attractive-woman-downward-facing-dog-pose.jpg);
+    background-position: center;
+    margin-left: 50px;
+}
+
+.img-care-two {
+    background-image: url(beautiful-girls-is-engaged-yoga-studio.jpg);
+    background-position: center;
+    margin-right: 50px;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.head-text-min {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #204236;
+    
+}
+
+span {
+    font-size: 27px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.text-container-two {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.instructor-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.first-pic-container {
+    display: flex;
+}
+
+.instructor-maria-container {
+    background-image: url(woman-practising-yoga.jpg);
+    width: 400px;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.instructor-maria-container-two {
+    background-image: url(woman-practising-yogaMaria.jpg);
+    width: 370px;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+.second-pic-container {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+
+.first-pic-hatha {
+    background-image: url(beautiful-girl-is-engaged-yoga-studioSasha.jpg);
+    width: 370px;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.second-pic-hatha {
+    background-image: url(beautiful-girl-is-engaged-yoga-studio.jpg);
+    width: 400px;
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.text-margin {
+    margin-left: 10px;
+}
+
+.instructor-helen-container {
+    background-image: url(young-woman-doing-reverse-warrior-exercise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 550px;
+    margin: 20px;
+}
+
+.instructor-helen-container-two {
+    background-image: url(young-woman-doing-preparation-kapotasana.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 400px;
+}
+
+.first-pic-nidra {
+    background-image: url(sporty-young-woman-doing-yoga-practice-isolated-concept-healthy-life-natural-balance-body-mental-development.jpg);
+    width: 430px;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.second-pic-nidra {
+    background-image: url(young-beautiful-woman-yoga-posing-isolated.jpg);
+    width: 400px;
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instructor-kate-container {
+    background-image: url(young-woman-garudasana-pose-grey-studio-background.jpg);
+    width: 400px;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.instructor-kate-container-two {
+    background-image: url(young-woman-prasarita-padottanasana-pose-grey-studio-background.jpg);
+    width: 370px;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-text {
+    margin-top: 100px;
+}
+
+.head-text-footer {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #204236;
+    text-align: center;
+}
+
+@media all and (max-width: 800px) {
+
+    .img-care {
+        width: 135px;
+        height: 41px;
+    }
+    
+    .head-text, .head-text-footer {
+        font-size: 40px;
+    }
+
+    .text {
+        width: 360px;
+    }
+
+    .img-suitable-container {
+        width: 310px;
+    }
+
+    .instructor-maria-container-two, .first-pic-hatha, .instructor-helen-container-two, .text-margin, .first-pic-nidra, .instructor-kate-container-two, .text-no-show {
+        display: none;
+    }
+
+    .first-pic-container {
+        width: 750px;
+    }
+
+    .instructor-container {
+        flex-direction: column;
+    }
+
+    .text-container-two {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .second-pic-hatha, .second-pic-nidra {
+        margin-left: 400px;
+        margin-top: -500px;
+        width: 320px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .img-care-one, .img-care-two, .second-pic-container .text {
+        display: none;
+    }
+
+    .take-care-container {
+        margin-top: 30px;
+        margin-left: 230px;
+        width: 480px;
+    }
+
+    .instructor-maria-container, .instructor-helen-container, .instructor-kate-container {
+        width: 330px;
+        height: 480px;
+    }
+
+    .hatha-container {
+        display: flex;
+        margin-top: -20px;
+    }
+
+    .text-container {
+        width: 330px;
+        margin-top: -30px;
+    }
+
+    .text-container-two {
+        width: 330px;
+    }
+
+    .instructor-container .second-pic-container {
+        margin-top: 0;
+    }
+
+    .first-pic-container .instructor-kate-container {
+        margin-top: 80px;
+    }
+
+    .footer-text {
+        width: 600px;
+        margin-left: 80px;
+    }
+}
